@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "services")
-public class service {
+public class Service {
 
     public enum Status {
         PENDING, DELIVERED, ACCEPTED, REJECTED
